@@ -1,16 +1,15 @@
 package Tienda_carros;
 
-
 public class Usuario {
-
-   private String Nombre_usuario;
+    
+    private String Nombre_usuario;
     private String Correo_usuario;
     private String Contraseña_usuario;
-    
+
     public void Vehiculo(){
-        this.Nombre_usuario;
-        this.Correo_usuario;
-        this.Contraseña_usuario;
+        String Nombre_Usuario = this.Nombre_usuario;
+        String Correo_Usuario = this.Correo_usuario;
+        String Contraseña_Usuario = this.Contraseña_usuario;
     }
 
     public String getNombre_usuario() {
@@ -29,3 +28,11 @@ public class Usuario {
         this.Correo_usuario = Correo_usuario;
     }
     
+    public String getContraseña_usuario(){
+        return Contraseña_usuario;
+    }
+
+    public void setContraseña_usuario(String Contraseña_usuario) {
+        this.Contraseña_usuario = Contraseña_usuario;
+    }
+}
