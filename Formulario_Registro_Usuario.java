@@ -24,6 +24,8 @@ public class Formulario_Registro_Usuario extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         Campo_Contraceña = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
+        jTable = new javax.swing.JTable();
+        jList = new javax.swing.JList();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -123,13 +125,13 @@ public class Formulario_Registro_Usuario extends javax.swing.JFrame {
         System.out.println("Se hizo click en el boton");
         String aux_Nombre = Campo_Nombre.getText();
         String aux_Correo = Campo_Correo.getText();
-        String aux_Contraseña = Campo_Contraceña.getText();
+        String aux_Contraseña = Campo_Contraseña.getText();
         System.out.println(aux_Nombre+ " " + aux_Correo+ " " +aux_Contraseña);
         
     }
 
     // Variables declaration - do not modify                     
-    private javax.swing.JTextField Campo_Contraceña;
+    private javax.swing.JTextField Campo_Contraseña;
     private javax.swing.JTextField Campo_Correo;
     private javax.swing.JTextField Campo_Nombre;
     private javax.swing.JButton jButton1;
@@ -140,5 +142,7 @@ public class Formulario_Registro_Usuario extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JTable jTable1; 
+    private javax.swing.JList jList1;
     // End of variables declaration                   
 }
