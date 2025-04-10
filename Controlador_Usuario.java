@@ -1,9 +1,9 @@
-package Tienda_carros;
+package controlador;
 
-import Tienda_carros.Usuario;
-import Tienda_carros.Formulario_Registro_Usuario;
+import Modelo.Usuario;
+import vista.Formulario_Registro_Usuario;
 
-public class Controlador_1{
+public class Controlador_Usuario{
     
     private Usuario objUsuario;
     private Formulario_Registro_Usuario objformulario;
@@ -13,5 +13,6 @@ public class Controlador_1{
      this.objUsuario = new Usuario();
      this.objformulario = new Formulario_Registro_Usuario();
     
- }
+    }
 }
+
