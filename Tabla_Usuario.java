@@ -54,9 +54,9 @@ public class tablaRegistro_Usuario extends javax.swing.JPanel {
     String Correo_Usuario = this.Correo_usuario;
     String Contraseña_Usuario = this.Contraseña_usuario;
     
-    String Columun1 = this.Nombre_usuario;
-    String Column2 = this.Correo_usuario;
-    String Column3 = this.Contraseña_usuario;
+     objColumun1 = this.Nombre_usuario;
+    objColumn2 = this.Correo_usuario;
+    objColumn3 = this.Contraseña_usuario;
 }
 
     // Variables declaration - do not modify                     
