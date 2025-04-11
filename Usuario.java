@@ -16,7 +16,7 @@ public class Usuario {
         return Nombre_usuario;
     }
 
-    public void setSerial_vehiculo(String Nombre_usuario) {
+    public void setNombre_Usuario(String Nombre_usuario) {
         this.Nombre_usuario = Nombre_usuario;
     }
 
