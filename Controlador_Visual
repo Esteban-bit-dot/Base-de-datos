@@ -1,0 +1,13 @@
+package controlador;
+
+
+import vista.Formulario_Registro_Usuario;
+
+public class Controlador_Visual {
+
+    
+    public static void main(String[]args){
+    Formulario_Registro_Usuario.objRegistro_Usuario new Registro_Usuario;
+    objRegistro_Usuario.setVisible(b:true);
+    }
+}
