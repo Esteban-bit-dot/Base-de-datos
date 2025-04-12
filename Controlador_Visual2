@@ -1,0 +1,11 @@
+package controlador;
+
+import Formulario_Registro_Vehiculo
+
+public class controlador_Visual2 {
+    
+    public static void main(String[]args){
+    formulario_Registro_Vehiculo.objRegistro_Vehiculo new Registro_Vehiculo;
+    objRegistro_Vehiculo.setVisible(b:true);
+    }
+}
